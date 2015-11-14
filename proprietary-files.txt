@@ -20,7 +20,6 @@ bin/qseecomd
 bin/radish
 bin/rmt_storage
 bin/sensors.qcom
-bin/thermal-engine
 bin/time_daemon
 bin/xtwifi-client
 bin/xtwifi-inet-agent
