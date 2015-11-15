@@ -324,11 +324,6 @@ service audiod /system/bin/audiod
     user system
     group system
 
-service bridgemgrd /system/bin/bridgemgrd
-    class main
-    user radio
-    group radio
-
 service charger /sbin/healthd -c
     class charger
     critical
