@@ -24,11 +24,6 @@
 /sys/class/android_usb/f_rmnet_smd_sdio/transport  --  u:object_r:sysfs_rmnet:s0
 /sys/devices/virtual/android_usb/android0/f_rmnet_smd_sdio/transport  --  u:object_r:sysfs_rmnet:s0
 
-
-/dev/bcm2079x                         u:object_r:nfc_device:s0
-/dev/socket/mpdecision(/.*)?          u:object_r:mpctl_socket:s0
-/data/cam_socket.*                    u:object_r:camera_socket:s0
-
 # Sensors
 /persist/sensors/sensors_settings                   u:object_r:sensors_persist_file:s0
 /persist-lg/sensors(/.*)?                           u:object_r:sensors_persist_file:s0
