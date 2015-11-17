@@ -33,7 +33,7 @@
 /system/etc/set_baseband.sh                         u:object_r:set_baseband_exec:s0
 
 # Thermal
-/system/bin/thermal-engine                          u:object_r:thermal-engine_exec:s0
+/system/bin/thermanager                             u:object_r:thermanager_exec:s0
 
 # Vibrator
 /sys/devices/virtual/input/lge_touch(/.*)?          u:object_r:touchpanel_sysfs:s0
